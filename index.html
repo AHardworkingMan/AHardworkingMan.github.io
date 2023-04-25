@@ -18,7 +18,7 @@
 
 	<h3>模型描述</h3>
 	<p>这个模型可以用于生成中文文本。 <br/>我已经上传了该模型使用的数据集，你可以在 <a href="https://www.kaggle.com/datasets/jackyuuup/littlegpt">kaggle</a> 上下载这个数据集。<br/>该数据集包含超过50万个中文对话，但是它并不是一个很好的数据集，它的规模有点小，且对话质量不是很高，因此训练出的模型效果很有限。</p>
-	<p>我同时上传了这个模型对应的代码，你可以在: <a href="https://www.kaggle.com/code/jackyuuup/littlegptmodel">这里</a>查看代码，如果你想本地化训练，可能需要对代码进行一定的改动，不过基本只需要对依赖关系上进行轻微改动。<br/>对于这个模型来说，如果你的电脑有一个大于 <b>2GB显存</b>的显卡，那就可以进行愉快的训练。<br/>PS：这时候请将数据集进行适当的裁剪，如果显存大于12GB，可以将batchsize设置为8，进行全数据集的训练。实测p100在该设置下，一个epoch的训练大约需要40分钟。</p>
+	<p>我同时上传了这个模型对应的代码，你可以在: <a href="https://www.kaggle.com/code/jackyuuup/littlegptmodel">这里</a>查看代码，如果你想本地化训练，可能需要对代码进行一定的改动，不过基本只需要对依赖关系上进行轻微改动。<br/>对于这个模型来说，如果你的电脑有一个大于 <b>2GB显存</b>的显卡，那就可以进行愉快的训练。<br/>PS：这时候请将数据集进行适当的裁剪，如果显存大于16GB，可以将batchsize设置为8，进行全数据集的训练。实测p100在该设置下，一个epoch的训练大约需要40分钟。</p>
 	<p>我这同时有一个更大一点的模型，这个模型是基于： <a href="https://huggingface.co/uer/gpt2-chinese-cluecorpussmall">gpt2-chinese-cluecorpussmall</a>进行的调整。</p>
 	<p><a href="https://www.kaggle.com/code/jackyuuup/littlegpt2">更大的模型在这里。</a><br/> 如果你有一块显存超过 <b>16GB</b> 的大玩具，就可以在本地进行愉快的训练。</p>
 </body>
